@@ -13,11 +13,11 @@ function setup() {
 function draw() {
   background(220);
   fill('yellow')
-  circle(width/2, height/2,100)
-  rect(340,500,100,200)
-  rect(287,500,50,150)
-  rect(443,500,50,150)
-  rect(400,705,40,150)
-  rect(340,705,40,150)
+  circle(width/2, height/2,100)//head
+  rect(340,500,100,200)//main body
+  rect(287,500,50,150)//left arm
+  rect(443,500,50,150)//right arm
+  rect(400,705,40,150)//right leg
+  rect(340,705,40,150)//left leg
   
 }
