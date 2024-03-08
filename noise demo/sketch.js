@@ -27,7 +27,7 @@ x = noise(timex)*width;
 y = noise(timey)*height;
 w = w + noise(timew)
 
-  fill(noise(timex)*255,noise(timey)*255,noise(timew)*255);
+  fill(noise(timex)*6,noise(timey)*2565,noise(timew)*2155);
   circle(x,y,w);
 
   timex+=0.03;
