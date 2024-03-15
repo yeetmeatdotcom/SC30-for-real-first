@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   background(220);
-  stroke('red');
+  stroke('blu');
   strokeWeight(4);
   rect(20, 20, 60, 60);
   describe('A white rectangle with a red outline.');
