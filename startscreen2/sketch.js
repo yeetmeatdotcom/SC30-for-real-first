@@ -32,7 +32,7 @@ function drawButton() {
 }
 
 function draw() {
-  background(220);
+  background(0);
 
   if (!buttonPressed) {
     drawButton();
