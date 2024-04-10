@@ -4,7 +4,8 @@ public class App {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        int x = -1;
+        int x = -1
+        ;
 
         // This conditiom check if x over 5
         if (x>5){
