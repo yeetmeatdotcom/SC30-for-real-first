@@ -1,19 +1,12 @@
 public class zoorunner {
     public static void main(String[] args) throws Exception {
-        Turkey bird = new Turkey();
-        Pig pig = new Pig();
-        bird.speak();
-        bird.sayName();
-        bird.speak();
-        bird.sayName();
-        bird.speak();
-        bird.sayName();
-        bird.speak();
-        bird.sayName();
-        bird.speak();
-        bird.sayName();
-        bird.speak();
-        bird.sayName();
-        pig.speak();
+        bear bear = new bear();
+        lion lion = new lion();
+        sleeptime sleeptime = new sleeptime();
+        bear.longhuff();
+        lion.roar();
+        sleeptime.sleep();
+        bear.snorebear();
+        lion.snorelion();
     }
 }
