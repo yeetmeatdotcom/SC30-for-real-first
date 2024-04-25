@@ -1,5 +1,5 @@
 import java.util.Scanner; 
-import java.lang.Math.*;
+
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -38,7 +38,7 @@ public class App {
 		test.calcArea();
 		test.print();
 
-
+		keyboard.close();
 		//add one more input section
 
 

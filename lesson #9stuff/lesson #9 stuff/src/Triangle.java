@@ -16,7 +16,7 @@ public class Triangle
    public Triangle(int a, int b, int c)
    {
       //add the needed code to this method
-
+setSides(5, 6, 7);
    }
 
    public void setSides(int a, int b, int c)
