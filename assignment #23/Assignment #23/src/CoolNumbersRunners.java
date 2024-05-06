@@ -8,8 +8,6 @@ public class CoolNumbersRunners {
 		int stop = scanner.nextInt();
 
 		System.out.println(CoolNumber.countCoolNumbers(stop) + " cool numbers between 6 - " + stop);
-
 		scanner.close();
+	}
 }
-}
-//hi
