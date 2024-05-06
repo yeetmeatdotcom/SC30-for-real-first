@@ -10,7 +10,7 @@ public class LeapyearRunner {
         System.out.print("Enter a year = ");
         int year = keyboard.nextInt();
         
-        if (App.isLeapYear(year)) 
+        if (App.LeapYear(year)) 
         {
             System.out.println(year + " A leap year.");
         } 
