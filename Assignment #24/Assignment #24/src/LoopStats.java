@@ -25,7 +25,7 @@ public class LoopStats
 
 	}
 
-	public int getEvenCount()
+	public int EvenCount()
 	{
 		int evenCount=0;
 		for (int x = start; x <= stop; x++){
@@ -36,7 +36,7 @@ public class LoopStats
 		return evenCount;
 	}
 
-	public int getOddCount()
+	public int OddCount()
 	{
 		int oddCount=0;
 		for (int x = start; x <= stop; x++){
@@ -51,7 +51,7 @@ public class LoopStats
 		return oddCount;
 	}
 
-	public int getTotal()
+	public int Total()
 	{
 		int total=0;
 		for (int x = start; x <= stop; x++){

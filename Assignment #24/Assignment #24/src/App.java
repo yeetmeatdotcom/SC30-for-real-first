@@ -12,9 +12,9 @@ System.out.print("now put a stop number: ");
 int stop = scanner.nextInt();
 
 LoopStats beeb = new LoopStats(start, stop);
-System.out.println("Total: " + beeb.getTotal());
-System.out.println("Even Count: " + beeb.getEvenCount());
-System.out.println("Odd Count: " + beeb.getOddCount());
+System.out.println("Total: " + beeb.Total());
+System.out.println("Even Count: " + beeb.EvenCount());
+System.out.println("Odd Count: " + beeb.OddCount());
 scanner.close();
 
     }
