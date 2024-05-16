@@ -17,5 +17,5 @@ System.out.println("Even Count: " + beeb.EvenCount());
 System.out.println("Odd Count: " + beeb.OddCount());
 scanner.close();
 
-    }
+    } 
 }
