@@ -1,5 +1,5 @@
 
-import java.util.Arrays;
+
 
 public class ArrayFunhouseStarterCode {
 
@@ -24,4 +24,24 @@ public class ArrayFunhouseStarterCode {
         }
         return count;
     }
+    //Remove val will replace the instance of particular numbers.
+		//Returns an entire array
+		public static int[] removeVal(int[] numArray, int val)
+		{
+            int count = 0;
+            for (int num : numArray) {
+                if (num == val) {
+                    count++;
+                }
+            }
+    
+            int[] newArray = new int[numArray.length - count];
+            int index = 0;
+            for (int num : numArray) {
+                if (num != val) {
+                    newArray[index++] = num;
+                }
+            }
+            return newArray;
+		}
 }

@@ -1,58 +1,3 @@
-// not done
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 import java.util.Arrays;
 
@@ -73,19 +18,15 @@ public class funhouserunner {
         System.out.println("# of 9s  =  " + ArrayFunhouseStarterCode.getCount(one, 9));
         System.out.println("# of 7s  =  " + ArrayFunhouseStarterCode.getCount(one, 7));
         
-        
-        
-        
-        
-        
+        // Remove all instances of 7 and print the new array
+        int[] newArrayOne = ArrayFunhouseStarterCode.removeVal(one, 7);
+        System.out.println("Array one after removing 7: " + Arrays.toString(newArrayOne));
+        //      
         System.out.println();
         System.out.println(); 
         System.out.println(); 
         System.out.println(); 
-        
-        
-
-
+        //
         // ARRAY NUMBER TWO ----------------------------------------
         int[] two = {7, 4, 2, 7, 3, 4, 6, 7, 8, 9, 7, 0, 10, 7, 0, 1, 7, 6, 5, 7, 3, 2, 7, 9, 9, 8,7};
 
@@ -100,5 +41,9 @@ public class funhouserunner {
         System.out.println("# of 4s  =  " + ArrayFunhouseStarterCode.getCount(two, 4));
         System.out.println("# of 9s  =  " + ArrayFunhouseStarterCode.getCount(two, 9));
         
+
+         // Remove all instances of 7 and print the new array
+         int[] newArrayTwo = ArrayFunhouseStarterCode.removeVal(two, 7);
+         System.out.println("Array two after removing 7: " + Arrays.toString(newArrayTwo));
     }
 }
