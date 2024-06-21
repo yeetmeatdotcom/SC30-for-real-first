@@ -45,15 +45,15 @@ public class runnerBlowling {
 
 
 
-        int totalBowlers = eliteCount + averageCount;
+        int Bowlers = eliteCount + averageCount;
 
 
 
 
 
-        if (totalBowlers > 0) {
-            Elite elite = new Elite(eliteCount, totalBowlers);
-            Average average = new Average(averageCount, totalBowlers);
+        if (Bowlers > 0) {
+            Elite elite = new Elite(eliteCount,Bowlers);
+            Average average = new Average(averageCount,Bowlers);
             System.out.println("Elite Bowlers " + elite.getPercentage() + "%");
             System.out.println("Average Bowlers " + average.getPercentage() + "%");
         }
