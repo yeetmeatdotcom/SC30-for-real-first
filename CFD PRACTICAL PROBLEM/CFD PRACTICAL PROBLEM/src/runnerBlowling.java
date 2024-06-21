@@ -12,7 +12,7 @@ public class runnerBlowling {
 
 
         while (!doneEntering) {
-            System.out.print("Please enter the bowling score (-1 to quit): ");
+            System.out.print("Please enter the bowling score \"-1 to quit\": ");
             int score = scanner.nextInt();
 
             if (score == -1) {
